@@ -1,0 +1,124 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+header a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 50px 15%;
+    margin: 30px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #1f1c2c;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    background: #1f1c2c;
+    color: white;
+    padding: 10px 18px;
+    margin: 8px;
+    border-radius: 25px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    background: #928dab;
+    cursor: pointer;
+}
+
+/* Experience & Projects Cards */
+section h3 {
+    margin-top: 20px;
+    color: #444;
+}
+
+section p {
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+/* Card Effect */
+section h3, section p {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    width: 80%;
+}
+
+/* Footer */
+footer {
+    background: #1f1c2c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    section {
+        padding: 40px 5%;
+    }
+
+    section h3, section p {
+        width: 100%;
+    }
+
+    ul li {
+        display: block;
+        margin: 10px auto;
+    }
+}
